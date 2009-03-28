@@ -1,0 +1,62 @@
+<ui version="4.0" >
+ <class>MainWindow</class>
+ <widget class="QDialog" name="MainWindow" >
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>731</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="minimumSize" >
+   <size>
+    <width>731</width>
+    <height>522</height>
+   </size>
+  </property>
+  <property name="maximumSize" >
+   <size>
+    <width>731</width>
+    <height>16777215</height>
+   </size>
+  </property>
+  <property name="windowTitle" >
+   <string>LogParser</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout" >
+   <item>
+    <widget class="QLabel" name="lblPath" >
+     <property name="minimumSize" >
+      <size>
+       <width>711</width>
+       <height>21</height>
+      </size>
+     </property>
+     <property name="text" >
+      <string>Please load a log file</string>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout" >
+     <item>
+      <widget class="QLineEdit" name="txtReToMatch" />
+     </item>
+     <item>
+      <widget class="QPushButton" name="btnParse" >
+       <property name="text" >
+        <string>Parse</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTreeView" name="tvResult" />
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
