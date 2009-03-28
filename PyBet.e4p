@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE Project SYSTEM "Project-4.6.dtd">
 <!-- eric4 project file for project PyBet -->
-<!-- Saved: 2009-03-23, 10:24:54 -->
+<!-- Saved: 2009-03-28, 13:34:24 -->
 <!-- Copyright (C) 2009 Bytamine, bytamine@yandex.ru -->
 <Project version="4.6">
   <Language>en</Language>
@@ -12,8 +12,13 @@
   <Author>Bytamine</Author>
   <Email>bytamine@yandex.ru</Email>
   <Sources>
+    <Source>Ui_LogParser.py</Source>
+    <Source>MainWindow.py</Source>
+    <Source>Parser/__init__.py</Source>
+    <Source>Parser/Parser.py</Source>
   </Sources>
   <Forms>
+    <Form>LogParser.ui</Form>
   </Forms>
   <Translations>
   </Translations>
